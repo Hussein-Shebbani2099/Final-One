@@ -43,6 +43,7 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin: 0rem 2rem;
 }
 
 .quote-text {
@@ -104,5 +105,20 @@ button:active {
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 750px) {
+	html {
+		font-size: 50%;
+	}
+	.quote-author {
+		margin: 2rem 0rem;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	html {
+		font-size: 45%;
 	}
 }
