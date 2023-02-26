@@ -109,7 +109,7 @@ button:active {
 }
 
 @media screen and (max-width: 750px) {
-	html {
+	.quote-container {
 		font-size: 50%;
 	}
 	.quote-author {
@@ -118,7 +118,7 @@ button:active {
 }
 
 @media screen and (max-width: 350px) {
-	html {
+	.quote-container {
 		font-size: 45%;
 	}
 }
